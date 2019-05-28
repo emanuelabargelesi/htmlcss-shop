@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+}
+
+.sfondo {
+  background-color: rgba(193, 189, 189, 0.2);
+  width: 33%;
+  height: 270px;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+}
+
+section {
+  margin: 0 10px 30px 0;
+}
+
+img {
+  margin-top: 7%;
+}
+
+.fa-heart {
+  display: block;
+  margin: auto;
+  color: rgba(255, 255, 255, 0);
+}
+
+.phone:hover .fa-heart, .fa-heart:hover {
+  color: red;
+}
+
+.trenta {
+  width: 8%;
+  text-align: center;
+  background-color: green;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.cinque {
+  width: 8%;
+  text-align: center;
+  background-color: red;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
